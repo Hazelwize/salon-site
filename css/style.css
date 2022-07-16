@@ -1,0 +1,407 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+html{
+  font-size:62.5%;
+}
+body {
+  font-family: 'Cinzel', serif;
+  font-size: 1.4rem;
+}
+.material-icons{
+  font-family:'Material Icons';
+  font-size: 2rem;
+}
+header,nav,ul{
+  height: 70px;
+  width: 100%;
+}
+li{
+  padding: 0 22px;
+  float: left;
+  line-height: 70px;
+}
+main{
+  height: 800px;
+  padding: 180px 10px 20px 150px;
+  background:linear-gradient(10deg, white 230px, rgb(160, 148, 148) 0% 234px , transparent 0%) , url(../assets/main.jpg) 0 50% no-repeat;
+  border-bottom-right-radius: 100px; 
+  background-size: cover;  
+}
+
+h1{
+  font-size: 8rem;
+  white-space: pre-line;
+  margin-bottom: 20px;
+  color: white
+}
+h5.simpleSmall{
+  margin-top: 20px;
+  color: white;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+.wrapper{
+  margin: 0 auto;
+  max-width: 1440px;
+}
+.navSide,.navCenter{
+  float: left;
+  width: 20%;
+  padding: 0 2%;
+  text-align: center;
+  line-height: 70px;
+}
+.navCenter{
+  width:60%; 
+}
+main>section{
+  width: 25%;
+  height: 330px;
+  background: black;
+  color: white;
+  padding: 20px;
+  margin-top: 40px;
+}
+.grid-1,.grid-2,.grid-3,.grid-4{
+  padding: 100px 200px;
+  height: 400px;
+}
+.descGrid{
+  width: 33.3333%;
+  height: 350px;
+  float: left;
+  padding: 30px;
+  text-align: center;
+}
+.descGrid img{
+  height: 100px;
+}
+.grid-2{
+  background: #F3F4F6;
+  margin-top: 200px; 
+  height: 600px;
+}
+.splitGrid{
+  width: 50%;
+  float: left;
+  padding: 20px;
+}
+.frameContainer{
+  height: 269px;
+  width: 479px;
+  margin-top: 40px;
+}
+.owners{
+  width: 33.3333%;
+  padding: 20px;
+  float: left;
+  text-align: center;
+}
+
+.owners img{
+  width: 75%;
+  
+}
+.adBox{
+  background:linear-gradient(90deg, #E6E4E5 50%, transparent 60%),url(../assets/ad.jpg) 100% 100% no-repeat;
+  background-size: contain;
+  height: 350px;
+  padding-left: 75px;
+  padding-top: 50px;
+  
+}
+.adBox .simpleMed{
+  margin-top: 20px;
+}
+
+.grid-5{
+  width: 990px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 100px;
+  
+}
+.lbCol{
+  width: 300px;
+  height: 1000px;
+  float: left;
+  width: 33.3333%;
+  text-align: center;
+}
+
+/* ============================================
+MODULES
+============================================ */
+.btn{
+  display: inline-block;
+  background: black;
+  border: 1px solid gray;
+  padding: 20px 30px;
+  margin: 20px 0;
+  color: white;
+  font-weight: 700;
+}
+.simpleMed{
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin: 30px 0 15px 0;
+  line-height: 5rem;
+}
+.wide{
+  letter-spacing: .6rem;
+}
+.simpleTiny{
+  font-size: 1.4rem;
+  line-height: 3rem;
+  width: 100%;
+}
+.simpleHeading{
+  font-size: 3.8rem;
+  font-weight: 500;
+  padding: 20px 0;
+  white-space: pre-line;
+}
+.ownerLabel{
+  text-align: center;
+  width: 75%;
+  margin-top: -25px;
+}
+.subLabel{
+  font-size: 1.2rem;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+.simpleSmall,a{
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
+.owners .simpleSmall{
+  color: white;
+  margin-bottom: 5px;
+}
+.invertedBtn{
+  color: black;
+  background: white;
+}
+.discount{
+  font-size: 4rem;
+  font-weight: 700;
+}
+.simpleSmall.wide{
+  color: white;
+}
+.grid-4>p{
+  white-space: pre-line;
+}
+.shortImg{
+  height: 300px;
+  margin-bottom: 30px;
+  
+}
+.longImg{
+  height: 600px;
+}
+.lbCol{
+  padding:0 15px;
+}
+.lb4{
+  margin-top:30px;
+}
+
+.lb1{
+  background:url(../assets/grid1-1.jpg) 0 0 no-repeat;
+  background-size: contain;
+}
+.lb2{
+  background: url(../assets/grid1-2.jpg)0 0 no-repeat;
+  background-size: contain;
+}
+.lb3{
+  background: url(../assets/grid2-1.jpg)0 0 no-repeat;
+  background-size: contain;
+}
+.lb4{
+  background: url(../assets/grid2-1.png) 0 0 no-repeat;
+  background-size: contain;
+}
+.lb5{
+  background: url(../assets/grid3-1.jpg)0 0 no-repeat;
+  background-size: contain;
+}
+.lb6{
+  background: url(../assets/grid3-2.jpg)0 0 no-repeat;
+  background-size: contain;
+}
+
+/* ========================================================
+MEDIA QUERIES
+======================================================== */
+
+@media screen and (max-width: 1366px){
+  .navCenter ul li:nth-child(n+5){
+    display: none;
+  }
+  .navSide:first-of-type{
+    display: none;
+  }
+  .navSide{
+    width: 40%;
+    text-align: right;
+
+  }
+  .grid-2{
+    height: 1000px;
+  }
+  .splitGrid{
+    width: 100%;
+  }
+  .frameContainer{
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1296px){
+  main>section{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1080px){
+  .grid-1,.grid-2,.grid-3,.grid-4{
+    padding: 100px 50px;
+}
+
+@media screen and (max-width: 980px){
+  .lbCol:last-of-type{
+    display: none;
+  }
+  .lbCol{
+    width: 50%;
+  }
+  .grid-5{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 780px){
+  .navCenter ul li:nth-child(n+3){
+    display: none;
+  }
+  .descGrid{
+    width: 100%;
+  }
+  .owners{
+    width: 100%;
+  }
+.adBox{
+  background: linear-gradient(90deg, #979797 , transparent );
+}
+  main{
+    padding-left: 20px;
+    background:linear-gradient(10deg, white 230px, rgb(160, 148, 148) 0% 234px , transparent 0%) , url(../assets/main.jpg) 50% 50% no-repeat;
+  }
+}
+@media screen and (max-width: 486px){
+  h1{
+    font-size: 4rem;
+  }
+  .frameContainer{
+    display: none;
+  }
+  .lbCol{
+    width: 100%;
+  }
+  .grid-4{
+    height: 600px;
+  }
+}
+
+@media screen and (max-width: 374px){
+  .descGrid,.adBox{
+    height: 600px;
+  }
+  .grid-4{
+    padding-left: 10px;
+  }
+}
+
+@media screen and (max-width: 374px){
+  .navCenter ul li{
+    display: none;
+  }
+  .navSide{
+    width: 100%;
+  }
+}

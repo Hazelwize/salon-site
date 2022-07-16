@@ -1,7 +1,6 @@
 # Salon Site Practice
 This was a website that I built using only html and css.
 
-**Link to project:** http://recruiters-love-seeing-live-demos.com/
 
 ![Live Site Here](https://hazelwize.github.io/salon-site/)
 

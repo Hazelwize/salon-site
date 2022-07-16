@@ -1,8 +1,7 @@
 # Salon Site Practice
 This was a website that I built using only html and css.
 
-
-![Live Site Here](https://hazelwize.github.io/salon-site/)
+**Live Site Here:** https://hazelwize.github.io/salon-site/
 
 ## How It's Made:
 

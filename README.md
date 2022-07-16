@@ -12,7 +12,6 @@ This website was a way for me to master the box model. I used only floats as opp
 
 
 ## Optimizations
-*(optional)*
 
 If I had a bit more time to sink into this side project, I would have like to make the slanted photo at the top less pixelated. I used only CSS linear-gradient to create the effect of a slanted photo and border-radius to create the neat curve on the right. However, the paint on these effects aren't the cleanest methods. 
 
@@ -23,11 +22,11 @@ FLOATS!!! I challenge anyone seeing this page to try it out. The amount of knowl
 ## Examples:
 Taking this experience into future projects: 
 
-**Palettable:** https://github.com/alecortega/palettable
+**Portfolio Site:** https://github.com/Hazelwize/Portfolio
 
-**Twitter Battle:** https://github.com/alecortega/twitter-battle
+**Proof's Cafe:** https://github.com/Hazelwize/Cuisine
 
-**Patch Panel:** https://github.com/alecortega/patch-panel
+**E-sports Team Site:** https://github.com/Hazelwize/murderInk
 
 
 

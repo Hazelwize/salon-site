@@ -3,6 +3,9 @@ This was a website that I built using only html and css.
 
 **Live Site Here:** https://hazelwize.github.io/salon-site/
 
+![salon](https://user-images.githubusercontent.com/97214996/179374436-fec9ee0e-a7cb-44a8-999d-e8235707b780.png)
+
+
 ## How It's Made:
 
 **Tech used:** HTML and CSS

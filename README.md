@@ -19,7 +19,7 @@ If I had a bit more time to sink into this side project, I would have like to ma
 
 ## Lessons Learned:
 
-FLOATS!!! I challenge anyone seeing this page to try it out. The amount of knowledge that you gain from working with floats really deepens the understanding you have of the box model. The relationship between different elements on the page is forced into a symbiotic relationship with clearfix and border-box.
+FLOATS!!! I challenge anyone seeing this page to try it out. The amount of knowledge that you will gain from working with floats really deepens the understanding you have of the box model. The relationship between different elements on the page is forced into a symbiotic relationship with clearfix and border-box.
 
 ## Examples:
 Taking this experience into future projects: 
